@@ -89,7 +89,7 @@ jobs:
       with:
         fetch-depth: 0
         ref: ${{ github.ref }}
-    - run: rm -r .github
+    - run: rm -r .github/workflows
     - name: Remove tmp_branch if it exists
       run: |
         git branch -d tmp_branch || true
