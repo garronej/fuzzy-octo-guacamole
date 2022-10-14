@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+npm-debug.log
+lib
+dist
+notes.md
+.vscode/
+tracing_output_folder/
+*.tgz
+
+/deno_dist/
