@@ -102,8 +102,8 @@ jobs:
     - uses: bahmutov/npm-install@v1
     - run: yarn build
     - run: |
-        npx -y -p denoify@1.2.3 enable_short_npm_import_path
-        npx -y -p denoify@1.2.3 remove_deno_dist_from_gitignore
+        npx -y -p denoify@1.2.4 enable_short_npm_import_path
+        npx -y -p denoify@1.2.4 remove_deno_dist_from_gitignore
       env:
         DRY_RUN: "0"
     - run: |
