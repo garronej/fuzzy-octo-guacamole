@@ -9,8 +9,8 @@ with smart type inference.
   <a href="https://github.com/garronej/fuzzy-octo-guacamole/actions">
     <img src="https://github.com/garronej/fuzzy-octo-guacamole/workflows/ci/badge.svg?branch=main" alt="CI Workflow" height="18">
   </a>
-  <a href="https://www.npmjs.com/package/garronej/fuzzy-octo-guacamole">
-    <img src="https://img.shields.io/npm/dm/fuzzy-octo-guacamole.svg" alt="downloads" height="18">
+  <a href="https://www.npmjs.com/package/ts-pattern">
+    <img src="https://img.shields.io/npm/dm/ts-pattern.svg" alt="downloads" height="18">
   </a>
   <a href="https://www.npmjs.com/package/fuzzy-octo-guacamole">
     <img src="https://img.shields.io/npm/v/fuzzy-octo-guacamole.svg" alt="npm version" height="18">
