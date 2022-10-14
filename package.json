@@ -1,6 +1,6 @@
 {
   "name": "fuzzy-octo-guacamole",
-  "version": "1.1.0",
+  "version": "1.2.0-rc.0",
   "description": " The exhaustive Pattern Matching library for TypeScript.",
   "type": "module",
   "source": "src/index.ts",
