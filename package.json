@@ -1,5 +1,5 @@
 {
-  "name": "ts-pattern",
+  "name": "fuzzy-octo-guacamole",
   "version": "0.0.0",
   "description": " The exhaustive Pattern Matching library for TypeScript.",
   "type": "module",
@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gvergnaud/ts-pattern.git"
+    "url": "git+ssh://git@github.com/garronej/fuzzy-octo-guacamole.git"
   },
   "keywords": [
     "pattern",
@@ -51,9 +51,9 @@
   "author": "Gabriel Vergnaud",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gvergnaud/ts-pattern/issues"
+    "url": "https://github.com/garronej/fuzzy-octo-guacamole/issues"
   },
-  "homepage": "https://github.com/gvergnaud/ts-pattern#readme",
+  "homepage": "https://github.com/garronej/fuzzy-octo-guacamole#readme",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.4.5",

@@ -6,20 +6,20 @@ with smart type inference.
 </p>
 
 <p align="center">
-  <a href="https://github.com/gvergnaud/ts-pattern/actions">
-    <img src="https://github.com/gvergnaud/ts-pattern/workflows/ci/badge.svg?branch=main" alt="CI Workflow" height="18">
+  <a href="https://github.com/garronej/fuzzy-octo-guacamole/actions">
+    <img src="https://github.com/garronej/fuzzy-octo-guacamole/workflows/ci/badge.svg?branch=main" alt="CI Workflow" height="18">
   </a>
-  <a href="https://www.npmjs.com/package/ts-pattern">
-    <img src="https://img.shields.io/npm/dm/ts-pattern.svg" alt="downloads" height="18">
+  <a href="https://www.npmjs.com/package/garronej/fuzzy-octo-guacamole">
+    <img src="https://img.shields.io/npm/dm/fuzzy-octo-guacamole.svg" alt="downloads" height="18">
   </a>
-  <a href="https://www.npmjs.com/package/ts-pattern">
-    <img src="https://img.shields.io/npm/v/ts-pattern.svg" alt="npm version" height="18">
+  <a href="https://www.npmjs.com/package/fuzzy-octo-guacamole">
+    <img src="https://img.shields.io/npm/v/fuzzy-octo-guacamole.svg" alt="npm version" height="18">
   </a>
-  <a href="https://deno.land/x/ts_pattern">
-        <img src="https://img.shields.io/badge/deno-module-informational?logo=deno">
+  <a href="https://deno.land/x/fuzzy_octo_guacamole">
+        <img src="https://img.shields.io/badge/deno-module-informational?logo=deno" alt="deno module" height="18">
   </a>
-  <a href="https://github.com/gvergnaud/ts-pattern">
-    <img src="https://img.shields.io/npm/l/ts-pattern.svg" alt="MIT license" height="18">
+  <a href="https://github.com/garronej/fuzzy-octo-guacamole">
+    <img src="https://img.shields.io/npm/l/fuzzy-octo-guacamole.svg" alt="MIT license" height="18">
   </a>
 </p>
 
