@@ -136,6 +136,7 @@ jobs:
         generate_release_notes: false
         draft: false
         prerelease: ${{ needs.check_if_version_upgraded.outputs.is_pre_release == 'true' }}
+        body: ""
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
