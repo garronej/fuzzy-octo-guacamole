@@ -140,5 +140,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
     - name: Remove tmp_branch
-      run: git push origin :tmp_branch || true
+      run: git push origin :tmp_branch
 
