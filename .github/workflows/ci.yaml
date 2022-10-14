@@ -23,8 +23,8 @@ jobs:
         node-version: ${{ matrix.node }}
     - uses: bahmutov/npm-install@v1
     - run: |
-        yarn build
-        yarn test
+        npm run build
+        npm test
   test_deno:
     runs-on: ubuntu-latest
     name: test with Deno
@@ -97,7 +97,7 @@ jobs:
       with:
         registry-url: https://registry.npmjs.org/
     - uses: bahmutov/npm-install@v1
-    - run: yarn build
+    - run: npm run build
     - run: npx -y -p denoify@1.2.4 remove_deno_dist_from_gitignore
       env:
         DRY_RUN: "0"
