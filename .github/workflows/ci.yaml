@@ -91,12 +91,8 @@ jobs:
         ref: ${{ github.ref }}
     - run: rm -r .github/workflows
     - name: Remove tmp_branch if it exists
-      run: |
-        git branch -d tmp_branch || true
-        git push origin :tmp_branch || true
-    - run: |
-        git branch tmp_branch
-        git checkout tmp_branch
+      run: git push origin :tmp_branch || true
+    - run: git checkout -b tmp_branch
     - uses: actions/setup-node@v3
       with:
         registry-url: https://registry.npmjs.org/
