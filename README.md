@@ -13,11 +13,11 @@ with smart type inference.
     <img src="https://img.shields.io/npm/dm/ts-pattern.svg" alt="downloads" height="18">
   </a>
   <a href="https://www.npmjs.com/package/fuzzy-octo-guacamole">
-    <img src="https://img.shields.io/npm/v/fuzzy-octo-guacamole.svg" alt="npm version" height="18">
+    <img src="https://img.shields.io/npm/v/fuzzy-octo-guacamole?logo=npm" alt="npm version" height="18">
   </a>
   <a href="https://deno.land/x/fuzzy_octo_guacamole">
-        <img src="https://img.shields.io/badge/deno-module-informational?logo=deno" alt="deno module" height="18">
-  </a>
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Ffuzzy_octo_guacamole%2Fmod.ts" alt="deno module" height="18">
+  </a>  
   <a href="https://github.com/garronej/fuzzy-octo-guacamole">
     <img src="https://img.shields.io/npm/l/fuzzy-octo-guacamole.svg" alt="MIT license" height="18">
   </a>
