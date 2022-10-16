@@ -25,6 +25,7 @@ with smart type inference.
 
 ```ts
 import { match, P } from 'ts-pattern';
+// In Deno: import { match, P } from 'https://deno.land/x/ts_pattern@v<VERSION>/mod.ts'; 
 
 type Data =
   | { type: 'text'; content: string }
