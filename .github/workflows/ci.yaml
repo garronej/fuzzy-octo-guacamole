@@ -75,7 +75,7 @@ jobs:
         branch: ${{ github.head_ref || github.ref }}
 
   publish:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     needs: 
       - check_if_version_upgraded
     # We create release only if the version in the package.json have been upgraded and this CI is running against the main branch.
