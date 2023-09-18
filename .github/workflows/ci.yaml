@@ -1,4 +1,6 @@
 name: ci
+permissions:
+  actions: read
 on:
   push:
     branches:
@@ -29,6 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     name: test with Deno
     steps: 
+    - name: Whait for test_nodes to complete
+      uses: yogeshlonkar/wait-for-jobs@v0
+      with:
+        gh-token: ${{ secrets.GITHUB_TOKEN }}
+        ignore-skipped: 'true'
+        jobs: 'test_node'
+        ttl: '10'
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
     - uses: actions/cache@v3
