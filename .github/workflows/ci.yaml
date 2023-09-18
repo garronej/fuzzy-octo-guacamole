@@ -14,7 +14,6 @@ jobs:
   test_node:
     runs-on: ubuntu-latest
     if: false
-    name: test_node
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
@@ -31,7 +30,7 @@ jobs:
       with:
         gh-token: ${{ secrets.GITHUB_TOKEN }}
         ignore-skipped: 'true'
-        jobs: 'test_node'
+        jobs: test_node
         ttl: '10'
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
